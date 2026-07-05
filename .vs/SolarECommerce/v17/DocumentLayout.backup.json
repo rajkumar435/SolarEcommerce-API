@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4E78C3-1788-468C-BC1E-373CA95CD72B}|Order.API\\Order.API.csproj|c:\\users\\dell\\pictures\\personal\\solarecommerce\\order.api\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4E78C3-1788-468C-BC1E-373CA95CD72B}|Order.API\\Order.API.csproj|solutionrelative:order.api\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4E78C3-1788-468C-BC1E-373CA95CD72B}|Order.API\\Order.API.csproj|c:\\users\\dell\\pictures\\personal\\solarecommerce\\order.api\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4E78C3-1788-468C-BC1E-373CA95CD72B}|Order.API\\Order.API.csproj|solutionrelative:order.api\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4E78C3-1788-468C-BC1E-373CA95CD72B}|Order.API\\Order.API.csproj|c:\\users\\dell\\pictures\\personal\\solarecommerce\\order.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4E78C3-1788-468C-BC1E-373CA95CD72B}|Order.API\\Order.API.csproj|solutionrelative:order.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4E78C3-1788-468C-BC1E-373CA95CD72B}|Order.API\\Order.API.csproj|c:\\users\\dell\\pictures\\personal\\solarecommerce\\order.api\\dtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4E78C3-1788-468C-BC1E-373CA95CD72B}|Order.API\\Order.API.csproj|solutionrelative:order.api\\dtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4E78C3-1788-468C-BC1E-373CA95CD72B}|Order.API\\Order.API.csproj|c:\\users\\dell\\pictures\\personal\\solarecommerce\\order.api\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4E78C3-1788-468C-BC1E-373CA95CD72B}|Order.API\\Order.API.csproj|solutionrelative:order.api\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4E78C3-1788-468C-BC1E-373CA95CD72B}|Order.API\\Order.API.csproj|c:\\users\\dell\\pictures\\personal\\solarecommerce\\order.api\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4E78C3-1788-468C-BC1E-373CA95CD72B}|Order.API\\Order.API.csproj|solutionrelative:order.api\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4E78C3-1788-468C-BC1E-373CA95CD72B}|Order.API\\Order.API.csproj|c:\\users\\dell\\pictures\\personal\\solarecommerce\\order.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4E78C3-1788-468C-BC1E-373CA95CD72B}|Order.API\\Order.API.csproj|solutionrelative:order.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4E78C3-1788-468C-BC1E-373CA95CD72B}|Order.API\\Order.API.csproj|c:\\users\\dell\\pictures\\personal\\solarecommerce\\order.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9D4E78C3-1788-468C-BC1E-373CA95CD72B}|Order.API\\Order.API.csproj|solutionrelative:order.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D4E78C3-1788-468C-BC1E-373CA95CD72B}|Order.API\\Order.API.csproj|c:\\users\\dell\\pictures\\personal\\solarecommerce\\order.api\\data\\orderdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4E78C3-1788-468C-BC1E-373CA95CD72B}|Order.API\\Order.API.csproj|solutionrelative:order.api\\data\\orderdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073D1CC9-A2AC-473E-9D24-1B7AA72C9457}|Product.API\\Product.API.csproj|c:\\users\\dell\\pictures\\personal\\solarecommerce\\product.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{073D1CC9-A2AC-473E-9D24-1B7AA72C9457}|Product.API\\Product.API.csproj|solutionrelative:product.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02CEADE7-1BFF-4418-8B1F-E39858F79F76}|Product.Infrastructure\\Product.Infrastructure.csproj|c:\\users\\dell\\pictures\\personal\\solarecommerce\\product.infrastructure\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02CEADE7-1BFF-4418-8B1F-E39858F79F76}|Product.Infrastructure\\Product.Infrastructure.csproj|solutionrelative:product.infrastructure\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{418B6BAA-2917-416D-BD6F-85D3C90E1C3A}|Auth.Domain\\Auth.Domain.csproj|c:\\users\\dell\\pictures\\personal\\solarecommerce\\auth.domain\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{418B6BAA-2917-416D-BD6F-85D3C90E1C3A}|Auth.Domain\\Auth.Domain.csproj|solutionrelative:auth.domain\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E36D72-FE59-49A0-9C08-9080CA8ADC7D}|Auth.Infrastructure\\Auth.Infrastructure.csproj|c:\\users\\dell\\pictures\\personal\\solarecommerce\\auth.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E36D72-FE59-49A0-9C08-9080CA8ADC7D}|Auth.Infrastructure\\Auth.Infrastructure.csproj|solutionrelative:auth.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64FD787-6CB7-478B-9E10-6968195DD20D}|Auth.API\\Auth.API.csproj|c:\\users\\dell\\pictures\\personal\\solarecommerce\\auth.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64FD787-6CB7-478B-9E10-6968195DD20D}|Auth.API\\Auth.API.csproj|solutionrelative:auth.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A829BF71-AE5C-4E6D-AD33-63FFF5D71EA7}|Auth.Application\\Auth.Application.csproj|c:\\users\\dell\\pictures\\personal\\solarecommerce\\auth.application\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A829BF71-AE5C-4E6D-AD33-63FFF5D71EA7}|Auth.Application\\Auth.Application.csproj|solutionrelative:auth.application\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{418B6BAA-2917-416D-BD6F-85D3C90E1C3A}|Auth.Domain\\Auth.Domain.csproj|c:\\users\\dell\\pictures\\personal\\solarecommerce\\auth.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{418B6BAA-2917-416D-BD6F-85D3C90E1C3A}|Auth.Domain\\Auth.Domain.csproj|solutionrelative:auth.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{418B6BAA-2917-416D-BD6F-85D3C90E1C3A}|Auth.Domain\\Auth.Domain.csproj|c:\\users\\dell\\pictures\\personal\\solarecommerce\\auth.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{418B6BAA-2917-416D-BD6F-85D3C90E1C3A}|Auth.Domain\\Auth.Domain.csproj|solutionrelative:auth.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A829BF71-AE5C-4E6D-AD33-63FFF5D71EA7}|Auth.Application\\Auth.Application.csproj|c:\\users\\dell\\pictures\\personal\\solarecommerce\\auth.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A829BF71-AE5C-4E6D-AD33-63FFF5D71EA7}|Auth.Application\\Auth.Application.csproj|solutionrelative:auth.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A829BF71-AE5C-4E6D-AD33-63FFF5D71EA7}|Auth.Application\\Auth.Application.csproj|c:\\users\\dell\\pictures\\personal\\solarecommerce\\auth.application\\interfaces\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A829BF71-AE5C-4E6D-AD33-63FFF5D71EA7}|Auth.Application\\Auth.Application.csproj|solutionrelative:auth.application\\interfaces\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE0A89D-0EED-4860-8C9B-111625B9E661}|Product.Domain\\Product.Domain.csproj|c:\\users\\dell\\pictures\\personal\\solarecommerce\\product.domain\\entities\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE0A89D-0EED-4860-8C9B-111625B9E661}|Product.Domain\\Product.Domain.csproj|solutionrelative:product.domain\\entities\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6976BAB2-D4FE-4752-9642-897373D6C8E6}|Product.Application\\Product.Application.csproj|c:\\users\\dell\\pictures\\personal\\solarecommerce\\product.application\\interface\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6976BAB2-D4FE-4752-9642-897373D6C8E6}|Product.Application\\Product.Application.csproj|solutionrelative:product.application\\interface\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Order.API\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Order.API\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Order.API\\Services\\OrderService.cs",
+              "RelativeToolTip": "Order.API\\Services\\OrderService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T17:58:32.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Order.API\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Order.API\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Order.API\\Models\\OrderItem.cs",
+              "RelativeToolTip": "Order.API\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T17:23:53.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Order.API\\DTOs\\OrderItemDto.cs",
+              "RelativeDocumentMoniker": "Order.API\\DTOs\\OrderItemDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Order.API\\DTOs\\OrderItemDto.cs",
+              "RelativeToolTip": "Order.API\\DTOs\\OrderItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T17:22:42.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Order.API\\DTOs\\CreateOrderDto.cs",
+              "RelativeDocumentMoniker": "Order.API\\DTOs\\CreateOrderDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Order.API\\DTOs\\CreateOrderDto.cs",
+              "RelativeToolTip": "Order.API\\DTOs\\CreateOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T17:21:57.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Order.API\\Program.cs",
+              "RelativeDocumentMoniker": "Order.API\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Order.API\\Program.cs",
+              "RelativeToolTip": "Order.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T17:26:30.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Order.API\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Order.API\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Order.API\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Order.API\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T17:15:49.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Orders.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Order.API\\Models\\Orders.cs",
+              "RelativeDocumentMoniker": "Order.API\\Models\\Orders.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Order.API\\Models\\Orders.cs",
+              "RelativeToolTip": "Order.API\\Models\\Orders.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T17:24:46.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Order.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Order.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Order.API\\appsettings.json",
+              "RelativeToolTip": "Order.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-14T18:17:36.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Order.API\\Data\\OrderDbContext.cs",
+              "RelativeDocumentMoniker": "Order.API\\Data\\OrderDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Order.API\\Data\\OrderDbContext.cs",
+              "RelativeToolTip": "Order.API\\Data\\OrderDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T17:20:53.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Product.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Product.API\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Product.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Product.API\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAFMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T16:09:53.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Product.Infrastructure\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Product.Infrastructure\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Product.Infrastructure\\Services\\ProductService.cs",
+              "RelativeToolTip": "Product.Infrastructure\\Services\\ProductService.cs",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAAAOMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T18:28:29.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Auth.Domain\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "Auth.Domain\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Auth.Domain\\Entities\\Role.cs",
+              "RelativeToolTip": "Auth.Domain\\Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T17:07:17.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Auth.Domain\\Entities\\UserRole.cs",
+              "RelativeDocumentMoniker": "Auth.Domain\\Entities\\UserRole.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Auth.Domain\\Entities\\UserRole.cs",
+              "RelativeToolTip": "Auth.Domain\\Entities\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T17:07:24.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Auth.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Auth.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Auth.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Auth.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T17:02:45.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IJwtTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Auth.Application\\Interfaces\\IJwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "Auth.Application\\Interfaces\\IJwtTokenGenerator.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Auth.Application\\Interfaces\\IJwtTokenGenerator.cs",
+              "RelativeToolTip": "Auth.Application\\Interfaces\\IJwtTokenGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T17:02:12.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Auth.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Auth.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Auth.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Auth.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T17:00:23.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Auth.Infrastructure\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Auth.Infrastructure\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Auth.Infrastructure\\Services\\AuthService.cs",
+              "RelativeToolTip": "Auth.Infrastructure\\Services\\AuthService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAIBJwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T16:59:36.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Auth.Application\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Auth.Application\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Auth.Application\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Auth.Application\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T16:58:48.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Auth.Application\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Auth.Application\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Auth.Application\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "Auth.Application\\DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T16:58:06.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Product.Domain\\Entities\\Products.cs",
+              "RelativeDocumentMoniker": "Product.Domain\\Entities\\Products.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Product.Domain\\Entities\\Products.cs",
+              "RelativeToolTip": "Product.Domain\\Entities\\Products.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T18:29:44.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Product.Application\\Interface\\IProductService.cs",
+              "RelativeDocumentMoniker": "Product.Application\\Interface\\IProductService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\Personal\\SolarECommerce\\Product.Application\\Interface\\IProductService.cs",
+              "RelativeToolTip": "Product.Application\\Interface\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T18:29:20.552Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

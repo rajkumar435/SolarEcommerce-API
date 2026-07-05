@@ -1,0 +1,11 @@
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Application\bin\Debug\net8.0\Product.Application.deps.json
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Application\bin\Debug\net8.0\Product.Application.dll
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Application\bin\Debug\net8.0\Product.Application.pdb
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Application\obj\Debug\net8.0\Product.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Application\obj\Debug\net8.0\Product.Application.AssemblyInfoInputs.cache
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Application\obj\Debug\net8.0\Product.Application.AssemblyInfo.cs
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Application\obj\Debug\net8.0\Product.Application.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Application\obj\Debug\net8.0\Product.Application.dll
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Application\obj\Debug\net8.0\refint\Product.Application.dll
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Application\obj\Debug\net8.0\Product.Application.pdb
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Application\obj\Debug\net8.0\ref\Product.Application.dll

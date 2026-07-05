@@ -1,0 +1,11 @@
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Common\bin\Debug\net8.0\Common.deps.json
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Common\bin\Debug\net8.0\Common.dll
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Common\bin\Debug\net8.0\Common.pdb
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Common\obj\Debug\net8.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Common\obj\Debug\net8.0\Common.AssemblyInfoInputs.cache
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Common\obj\Debug\net8.0\Common.AssemblyInfo.cs
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Common\obj\Debug\net8.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Common\obj\Debug\net8.0\Common.dll
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Common\obj\Debug\net8.0\refint\Common.dll
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Common\obj\Debug\net8.0\Common.pdb
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Common\obj\Debug\net8.0\ref\Common.dll

@@ -1,0 +1,15 @@
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Domain\bin\Debug\net8.0\Product.Domain.deps.json
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Domain\bin\Debug\net8.0\Product.Domain.dll
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Domain\bin\Debug\net8.0\Product.Domain.pdb
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Domain\bin\Debug\net8.0\Common.dll
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Domain\bin\Debug\net8.0\Common.pdb
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Domain\obj\Debug\net8.0\Product.Domain.csproj.AssemblyReference.cache
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Domain\obj\Debug\net8.0\Product.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Domain\obj\Debug\net8.0\Product.Domain.AssemblyInfoInputs.cache
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Domain\obj\Debug\net8.0\Product.Domain.AssemblyInfo.cs
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Domain\obj\Debug\net8.0\Product.Domain.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Domain\obj\Debug\net8.0\Product..66AFAF57.Up2Date
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Domain\obj\Debug\net8.0\Product.Domain.dll
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Domain\obj\Debug\net8.0\refint\Product.Domain.dll
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Domain\obj\Debug\net8.0\Product.Domain.pdb
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Domain\obj\Debug\net8.0\ref\Product.Domain.dll
