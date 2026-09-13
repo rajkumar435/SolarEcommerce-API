@@ -45,3 +45,19 @@ jobs:
       # 7. Run Product tests
       - name: Run Product tests
         run: dotnet test Tests/Product.Tests/Product.Tests.csproj --configuration Release --no-build
+
+              # 8. Publish Auth API
+      - name: Publish Auth API
+        run: dotnet publish Auth.API/Auth.API.csproj --configuration Release --no-restore --output ./publish/Auth.API
+
+      # 9. Publish Product API
+      - name: Publish Product API
+        run: dotnet publish Product.API/Product.API.csproj --configuration Release --no-restore --output ./publish/Product.API
+
+      # 10. Publish Order API
+      - name: Publish Order API
+        run: dotnet publish Order.API/Order.API.csproj --configuration Release --no-restore --output ./publish/Order.API
+
+      # 11. Publish API Gateway
+      - name: Publish API Gateway
+        run: dotnet publish ApiGateway/ApiGateway.csproj --configuration Release --no-restore --output ./publish/ApiGateway
