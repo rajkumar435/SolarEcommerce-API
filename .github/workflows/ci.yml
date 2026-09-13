@@ -61,3 +61,10 @@ jobs:
       # 11. Publish API Gateway
       - name: Publish API Gateway
         run: dotnet publish ApiGateway/ApiGateway.csproj --configuration Release --no-restore --output ./publish/ApiGateway
+
+      # 12. Upload published applications
+      - name: Upload published applications
+        uses: actions/upload-artifact@v4
+        with:
+          name: solar-ecommerce-publish
+          path: ./publish
