@@ -5,7 +5,19 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Orders": {
+    "/health": {
+      "get": {
+        "tags": [
+          "Health"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/orders": {
       "post": {
         "tags": [
           "Orders"

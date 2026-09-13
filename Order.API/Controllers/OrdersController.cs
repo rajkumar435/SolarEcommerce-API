@@ -1,11 +1,28 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Order.API.DTOs;
 using Order.API.Services;
 
 namespace Order.API.Controllers
 {
+
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("health")]
+    public class HealthController : ControllerBase
+    {
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return Ok(new
+            {
+                service = "Order",
+                status = "Healthy"
+            });
+        }
+    }
+
+    [ApiController]
+    [Route("api/orders")]
     public class OrdersController : ControllerBase
     {
         private readonly IOrderService _service;
@@ -16,6 +33,7 @@ namespace Order.API.Controllers
             _service = service;
         }
 
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> Create(
             CreateOrderDto dto)
@@ -26,6 +44,7 @@ namespace Order.API.Controllers
             return Ok(result);
         }
 
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {

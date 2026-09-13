@@ -13,3 +13,4 @@ C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Domain\obj\Debug\net8.0\P
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Domain\obj\Debug\net8.0\refint\Product.Domain.dll
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Domain\obj\Debug\net8.0\Product.Domain.pdb
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Domain\obj\Debug\net8.0\ref\Product.Domain.dll
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Domain\obj\Debug\net8.0\Product.Domain.sourcelink.json

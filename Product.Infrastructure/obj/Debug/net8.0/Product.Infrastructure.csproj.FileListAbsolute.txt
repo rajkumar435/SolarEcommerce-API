@@ -19,3 +19,4 @@ C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Infrastructure\obj\Debug\
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Infrastructure\obj\Debug\net8.0\Product.Infrastructure.pdb
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Infrastructure\obj\Debug\net8.0\Product.Infrastructure.genruntimeconfig.cache
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Infrastructure\obj\Debug\net8.0\ref\Product.Infrastructure.dll
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Infrastructure\obj\Debug\net8.0\Product.Infrastructure.sourcelink.json

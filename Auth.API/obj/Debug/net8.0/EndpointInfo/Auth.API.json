@@ -79,6 +79,42 @@
         }
       }
     },
+    "/api/auth/admin-test": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/auth/customer-test": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/health": {
+      "get": {
+        "tags": [
+          "Health"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -184,6 +220,7 @@
     "securitySchemes": {
       "Bearer": {
         "type": "http",
+        "description": "Enter JWT token",
         "scheme": "bearer",
         "bearerFormat": "JWT"
       }

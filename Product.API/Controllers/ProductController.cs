@@ -1,40 +1,23 @@
-﻿//using Microsoft.AspNetCore.Authorization;
-//using Microsoft.AspNetCore.Mvc;
-//using Product.Application.DTOs;
-//using Product.Application.Interfaces;
-
-//[ApiController]
-//[Route("api/products")]
-//public class ProductController : ControllerBase
-//{
-//    private readonly IProductService _service;
-
-//    public ProductController(IProductService service)
-//    {
-//        _service = service;
-//    }
-
-//    [Authorize]
-//    [HttpPost]
-//    public async Task<IActionResult> Add(CreateProductDto dto)
-//    {
-//        await _service.Add(dto);
-//        return Ok("Product Added");
-//    }
-
-//    [Authorize]
-//    [HttpGet]
-//    public async Task<IActionResult> GetAll()
-//    {
-//        return Ok(await _service.GetAll());
-//    }
-//}
-
-
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Product.Application.DTOs;
 using Product.Application.Interfaces;
+
+
+[ApiController]
+[Route("health")]
+public class HealthController : ControllerBase
+{
+    [HttpGet]
+    public IActionResult Get()
+    {
+        return Ok(new
+        {
+            service = "Product",
+            status = "Healthy"
+        });
+    }
+}
 
 [ApiController]
 [Route("api/products")]
@@ -47,18 +30,10 @@ public class ProductController : ControllerBase
         _service = service;
     }
 
-    //[Authorize]
-    //[HttpPost]
-    //public async Task<IActionResult> Add(CreateProductDto dto)
-    //{
-    //    await _service.Add(dto);
-    //    return Ok("Added");
-    //}
-
     [Authorize]
     [HttpPost]
     public async Task<IActionResult> Add(
-    [FromForm] CreateProductDto dto)
+        [FromForm] CreateProductDto dto)
     {
         await _service.Add(dto);
 

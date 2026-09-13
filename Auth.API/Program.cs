@@ -1,196 +1,249 @@
-//using Auth.Application.Interfaces;
-//using Auth.Infrastructure.Data;
-//using Auth.Infrastructure.Services;
-//using Microsoft.AspNetCore.Authentication.JwtBearer;
-//using Microsoft.EntityFrameworkCore;
-//using Microsoft.IdentityModel.Tokens;
-//using Microsoft.OpenApi.Models;
-//using System.Text;
-
-//var builder = WebApplication.CreateBuilder(args);
-
-//builder.Services.AddControllers();
-
-////# ---------------- DB ----------------
-//builder.Services.AddDbContext<AppDbContext>(opt =>
-//    opt.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
-
-////# ---------------- JWT KEY ----------------
-//var key = Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:Key"]);
-
-////# ---------------- AUTH ----------------
-//builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-//.AddJwtBearer(options =>
-//{
-//    options.TokenValidationParameters = new TokenValidationParameters
-//    {
-//        ValidateIssuer = true,
-//        ValidateAudience = true,
-//        ValidateLifetime = true,
-//        ValidateIssuerSigningKey = true,
-
-//        ValidIssuer = builder.Configuration["JwtSettings:Issuer"],
-//        ValidAudience = builder.Configuration["JwtSettings:Audience"],
-//        IssuerSigningKey = new SymmetricSecurityKey(key),
-//        ClockSkew = TimeSpan.Zero
-//    };
-//});
-
-//builder.Services.AddAuthorization();
-
-////# ---------------- DI REGISTRATION (IMPORTANT) ----------------
-//builder.Services.AddScoped<IAuthService, AuthService>();
-//builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
-
-////# ---------------- SWAGGER ----------------
-//builder.Services.AddEndpointsApiExplorer();
-
-//builder.Services.AddSwaggerGen(c =>
-//{
-//    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Auth API", Version = "v1" });
-
-//    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-//    {
-//        Name = "Authorization",
-//        Type = SecuritySchemeType.Http,
-//        Scheme = "bearer",
-//        BearerFormat = "JWT",
-//        In = ParameterLocation.Header
-//    });
-
-//    c.AddSecurityRequirement(new OpenApiSecurityRequirement
-//    {
-//        {
-//            new OpenApiSecurityScheme
-//            {
-//                Reference = new OpenApiReference
-//                {
-//                    Type = ReferenceType.SecurityScheme,
-//                    Id = "Bearer"
-//                }
-//            },
-//            new string[] {}
-//        }
-//    });
-//});
-
-//var app = builder.Build();
-
-//app.UseSwagger();
-//app.UseSwaggerUI();
-
-//app.UseAuthentication();
-//app.UseAuthorization();
-
-//app.MapControllers();
-
-//app.Run();
-
-
-
-
-
-
-
-
-
-
-
-
-
 using Auth.Application.Interfaces;
+using Auth.Domain.Entities;
 using Auth.Infrastructure.Data;
 using Auth.Infrastructure.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
 
-var builder = WebApplication.CreateBuilder(args);
+var builder =
+    WebApplication.CreateBuilder(args);
+
+
+// ================================================================
+// CORS
+// ================================================================
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AngularPolicy",
+    options.AddPolicy(
+        "AngularPolicy",
         policy =>
         {
-            policy.AllowAnyOrigin()
-                  .AllowAnyHeader()
-                  .AllowAnyMethod();
+            policy
+                .AllowAnyOrigin()
+                .AllowAnyHeader()
+                .AllowAnyMethod();
         });
 });
 
+
+// ================================================================
+// CONTROLLERS
+// ================================================================
+
 builder.Services.AddControllers();
 
-// DB
-builder.Services.AddDbContext<AppDbContext>(opt =>
-    opt.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 
-// JWT KEY
-var key = Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:Key"]);
+// ================================================================
+// DATABASE
+// ================================================================
 
-// AUTH
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-.AddJwtBearer(options =>
+builder.Services.AddDbContext<AppDbContext>(
+    options =>
+        options.UseSqlServer(
+            builder.Configuration
+                .GetConnectionString("Default")));
+
+
+// ================================================================
+// JWT CONFIGURATION
+// ================================================================
+
+var jwtKey =
+    builder.Configuration[
+        "JwtSettings:Key"];
+
+var jwtIssuer =
+    builder.Configuration[
+        "JwtSettings:Issuer"];
+
+var jwtAudience =
+    builder.Configuration[
+        "JwtSettings:Audience"];
+
+
+if (string.IsNullOrWhiteSpace(jwtKey))
 {
-    options.TokenValidationParameters = new TokenValidationParameters
-    {
-        ValidateIssuer = true,
-        ValidateAudience = true,
-        ValidateLifetime = true,
-        ValidateIssuerSigningKey = true,
+    throw new InvalidOperationException(
+        "JwtSettings:Key is missing.");
+}
 
-        ValidIssuer = builder.Configuration["JwtSettings:Issuer"],
-        ValidAudience = builder.Configuration["JwtSettings:Audience"],
-        IssuerSigningKey = new SymmetricSecurityKey(key),
-        ClockSkew = TimeSpan.Zero
-    };
-});
+
+if (string.IsNullOrWhiteSpace(jwtIssuer))
+{
+    throw new InvalidOperationException(
+        "JwtSettings:Issuer is missing.");
+}
+
+
+if (string.IsNullOrWhiteSpace(jwtAudience))
+{
+    throw new InvalidOperationException(
+        "JwtSettings:Audience is missing.");
+}
+
+
+// ================================================================
+// AUTHENTICATION
+// ================================================================
+
+builder.Services
+    .AddAuthentication(
+        JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters =
+            new TokenValidationParameters
+            {
+                ValidateIssuerSigningKey = true,
+
+                IssuerSigningKey =
+                    new SymmetricSecurityKey(
+                        Encoding.UTF8.GetBytes(jwtKey)
+                    ),
+
+                ValidateIssuer = true,
+
+                ValidIssuer = jwtIssuer,
+
+                ValidateAudience = true,
+
+                ValidAudience = jwtAudience,
+
+                ValidateLifetime = true,
+
+                ClockSkew = TimeSpan.Zero,
+
+                RequireExpirationTime = true,
+
+                RequireSignedTokens = true
+            };
+    });
+
+// ================================================================
+// AUTHORIZATION
+// ================================================================
 
 builder.Services.AddAuthorization();
 
+
+// ================================================================
 // DI
-builder.Services.AddScoped<IAuthService, AuthService>();
-builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
+// ================================================================
 
-// Swagger
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(c =>
-{
-    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-    {
-        Name = "Authorization",
-        Type = SecuritySchemeType.Http,
-        Scheme = "bearer",
-        BearerFormat = "JWT",
-        In = ParameterLocation.Header
-    });
+builder.Services.AddScoped<
+    IAuthService,
+    AuthService>();
 
-    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+
+builder.Services.AddScoped<
+    IJwtTokenGenerator,
+    JwtTokenGenerator>();
+
+builder.Services.AddScoped<
+    IPasswordHasher<User>,
+    PasswordHasher<User>>();
+// ================================================================
+// SWAGGER
+// ================================================================
+
+builder.Services
+    .AddEndpointsApiExplorer();
+
+
+builder.Services.AddSwaggerGen(
+    c =>
     {
-        {
+        c.AddSecurityDefinition(
+            "Bearer",
             new OpenApiSecurityScheme
             {
-                Reference = new OpenApiReference
-                {
-                    Type = ReferenceType.SecurityScheme,
-                    Id = "Bearer"
-                }
-            },
-            new string[] {}
-        }
-    });
-});
+                Name =
+                    "Authorization",
 
-var app = builder.Build();
+                Type =
+                    SecuritySchemeType.Http,
+
+                Scheme =
+                    "bearer",
+
+                BearerFormat =
+                    "JWT",
+
+                In =
+                    ParameterLocation.Header,
+
+                Description =
+                    "Enter JWT token"
+            });
+
+
+        c.AddSecurityRequirement(
+            new OpenApiSecurityRequirement
+            {
+                {
+                    new OpenApiSecurityScheme
+                    {
+                        Reference =
+                            new OpenApiReference
+                            {
+                                Type =
+                                    ReferenceType
+                                        .SecurityScheme,
+
+                                Id =
+                                    "Bearer"
+                            }
+                    },
+
+                    Array.Empty<string>()
+                }
+            });
+    });
+
+
+// ================================================================
+// BUILD
+// ================================================================
+
+var app =
+    builder.Build();
+
+
+// ================================================================
+// SWAGGER
+// ================================================================
 
 app.UseSwagger();
+
 app.UseSwaggerUI();
 
-app.UseCors("AngularPolicy");
+app.UseHttpsRedirection();
+// ================================================================
+// MIDDLEWARE
+// ================================================================
+
+app.UseCors(
+    "AngularPolicy");
+
+
+// VERY IMPORTANT
+// Authentication MUST come before Authorization.
+
 app.UseAuthentication();
+
 app.UseAuthorization();
 
+
+// ================================================================
+// CONTROLLERS
+// ================================================================
+
 app.MapControllers();
+
 
 app.Run();

@@ -146,3 +146,4 @@ C:\Users\DELL\Pictures\Personal\SolarECommerce\Auth.API\obj\Debug\net8.0\refint\
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Auth.API\obj\Debug\net8.0\Auth.API.pdb
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Auth.API\obj\Debug\net8.0\Auth.API.genruntimeconfig.cache
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Auth.API\obj\Debug\net8.0\ref\Auth.API.dll
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Auth.API\obj\Debug\net8.0\Auth.API.sourcelink.json

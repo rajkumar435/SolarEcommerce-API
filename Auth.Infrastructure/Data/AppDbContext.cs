@@ -16,8 +16,18 @@ namespace Auth.Infrastructure.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<UserRole>()
-                .HasKey(x => new { x.UserId, x.RoleId });
+                .HasKey(x => new
+                {
+                    x.UserId,
+                    x.RoleId
+                });
+
+            modelBuilder.Entity<Role>()
+                .Property(x => x.RoleName)
+                .HasColumnName("RoleName");
         }
     }
 }

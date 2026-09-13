@@ -1,0 +1,47 @@
+name: SolarECommerce CI
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # 1. Get source code
+      - name: Checkout source code
+        uses: actions/checkout@v4
+
+      # 2. Install .NET
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      # 3. Restore dependencies
+      - name: Restore dependencies
+        run: dotnet restore SolarECommerce.sln
+
+      # 4. Build solution
+      - name: Build solution
+        run: dotnet build SolarECommerce.sln --configuration Release --no-restore
+
+      # 5. Run Auth tests
+      - name: Run Auth tests
+        run: dotnet test Tests/Auth.Tests/Auth.Tests.csproj --configuration Release --no-build
+
+      # 6. Run Order tests
+      - name: Run Order tests
+        run: dotnet test Tests/Order.Tests/Order.Tests.csproj --configuration Release --no-build
+
+      # 7. Run Product tests
+      - name: Run Product tests
+        run: dotnet test Tests/Product.Tests/Product.Tests.csproj --configuration Release --no-build

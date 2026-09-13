@@ -19,3 +19,4 @@ C:\Users\DELL\Pictures\Personal\SolarECommerce\Auth.Infrastructure\obj\Debug\net
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Auth.Infrastructure\obj\Debug\net8.0\ref\Auth.Infrastructure.dll
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Auth.Infrastructure\bin\Debug\net8.0\Auth.Application.dll
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Auth.Infrastructure\bin\Debug\net8.0\Auth.Application.pdb
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Auth.Infrastructure\obj\Debug\net8.0\Auth.Infrastructure.sourcelink.json

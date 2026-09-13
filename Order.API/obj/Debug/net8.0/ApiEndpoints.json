@@ -2,7 +2,7 @@
   {
     "ContainingType": "Order.API.Controllers.OrdersController",
     "Method": "Create",
-    "RelativePath": "api/Orders",
+    "RelativePath": "api/orders",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -18,7 +18,17 @@
   {
     "ContainingType": "Order.API.Controllers.OrdersController",
     "Method": "GetAll",
-    "RelativePath": "api/Orders",
+    "RelativePath": "api/orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Order.API.Controllers.HealthController",
+    "Method": "Get",
+    "RelativePath": "health",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

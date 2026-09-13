@@ -71,3 +71,4 @@ C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\obj\Debug\net8.0\refint
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\obj\Debug\net8.0\Order.API.pdb
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\obj\Debug\net8.0\Order.API.genruntimeconfig.cache
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\obj\Debug\net8.0\ref\Order.API.dll
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\obj\Debug\net8.0\Order.API.sourcelink.json

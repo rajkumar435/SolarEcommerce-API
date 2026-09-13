@@ -1,6 +1,26 @@
 [
   {
     "ContainingType": "Auth.API.Controllers.AuthController",
+    "Method": "AdminTest",
+    "RelativePath": "api/auth/admin-test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Auth.API.Controllers.AuthController",
+    "Method": "CustomerTest",
+    "RelativePath": "api/auth/customer-test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Auth.API.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/auth/login",
     "HttpMethod": "POST",
@@ -35,6 +55,16 @@
     "ContainingType": "Auth.API.Controllers.AuthController",
     "Method": "Test",
     "RelativePath": "api/auth/test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Auth.API.Controllers.HealthController",
+    "Method": "Get",
+    "RelativePath": "health",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
