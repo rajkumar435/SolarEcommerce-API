@@ -68,3 +68,19 @@ jobs:
         with:
           name: solar-ecommerce-publish
           path: ./publish
+
+      # 13. Build Auth API Docker image
+      - name: Build Auth API Docker image
+        run: docker build -f Auth.API/Dockerfile -t solar-auth-api:latest .
+
+      # 14. Build Product API Docker image
+      - name: Build Product API Docker image
+        run: docker build -f Product.API/Dockerfile -t solar-product-api:latest .
+
+      # 15. Build Order API Docker image
+      - name: Build Order API Docker image
+        run: docker build -f Order.API/Dockerfile -t solar-order-api:latest .
+
+      # 16. Build API Gateway Docker image
+      - name: Build API Gateway Docker image
+        run: docker build -f ApiGateway/Dockerfile -t solar-api-gateway:latest .
