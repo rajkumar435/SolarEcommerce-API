@@ -26,10 +26,11 @@ namespace Order.API.Models
         public string? Pincode { get; set; }
 
         public string? OrderStatus { get; set; }
+
         public ICollection<OrderItem> OrderItems
         {
             get;
             set;
-        } = new List<OrderItem>();   // IMPORTANT
+        } = new List<OrderItem>();
     }
 }

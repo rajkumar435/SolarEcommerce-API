@@ -5,8 +5,8 @@ C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Application\obj\Debug\net
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Application\obj\Debug\net8.0\Product.Application.AssemblyInfoInputs.cache
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Application\obj\Debug\net8.0\Product.Application.AssemblyInfo.cs
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Application\obj\Debug\net8.0\Product.Application.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Application\obj\Debug\net8.0\Product.Application.sourcelink.json
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Application\obj\Debug\net8.0\Product.Application.dll
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Application\obj\Debug\net8.0\refint\Product.Application.dll
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Application\obj\Debug\net8.0\Product.Application.pdb
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Application\obj\Debug\net8.0\ref\Product.Application.dll
-C:\Users\DELL\Pictures\Personal\SolarECommerce\Product.Application\obj\Debug\net8.0\Product.Application.sourcelink.json

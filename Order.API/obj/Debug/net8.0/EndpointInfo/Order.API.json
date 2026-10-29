@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "Order.API",
-    "version": "1.0"
+    "title": "Order API",
+    "version": "v1"
   },
   "paths": {
     "/health": {
@@ -50,6 +50,29 @@
       "get": {
         "tags": [
           "Orders"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/orders/{orderId}/payment-success": {
+      "put": {
+        "tags": [
+          "Orders"
+        ],
+        "parameters": [
+          {
+            "name": "orderId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -135,12 +158,19 @@
             "type": "string",
             "nullable": true
           },
+          "paymentMethod": {
+            "type": "string",
+            "nullable": true
+          },
           "items": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/OrderItemDto"
             },
             "nullable": true
+          },
+          "paymentDetails": {
+            "$ref": "#/components/schemas/PaymentDetailsDto"
           }
         },
         "additionalProperties": false
@@ -163,6 +193,36 @@
           "quantity": {
             "type": "integer",
             "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PaymentDetailsDto": {
+        "type": "object",
+        "properties": {
+          "paymentMethod": {
+            "type": "string",
+            "nullable": true
+          },
+          "upiId": {
+            "type": "string",
+            "nullable": true
+          },
+          "cardHolderName": {
+            "type": "string",
+            "nullable": true
+          },
+          "cardNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "expiryDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "cvv": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -190,6 +250,19 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Enter: Bearer {your JWT token}",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }

@@ -56,6 +56,7 @@ C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\obj\Debug\net8.0\Order.
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\obj\Debug\net8.0\Order.API.csproj.CoreCompileInputs.cache
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\obj\Debug\net8.0\Order.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\obj\Debug\net8.0\Order.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\obj\Debug\net8.0\Order.API.sourcelink.json
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -71,4 +72,14 @@ C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\obj\Debug\net8.0\refint
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\obj\Debug\net8.0\Order.API.pdb
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\obj\Debug\net8.0\Order.API.genruntimeconfig.cache
 C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\obj\Debug\net8.0\ref\Order.API.dll
-C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\obj\Debug\net8.0\Order.API.sourcelink.json
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\bin\Debug\net8.0\Serilog.dll
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\DELL\Pictures\Personal\SolarECommerce\Order.API\bin\Debug\net8.0\Serilog.Sinks.File.dll

@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "Order.API.Controllers.OrdersController",
-    "Method": "Create",
+    "Method": "CreateOrder",
     "RelativePath": "api/orders",
     "HttpMethod": "POST",
     "IsController": true,
@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "CreateOrderDto",
+        "Type": "Order.API.DTOs.CreateOrderDto",
         "IsRequired": true
       }
     ],
@@ -17,12 +17,28 @@
   },
   {
     "ContainingType": "Order.API.Controllers.OrdersController",
-    "Method": "GetAll",
+    "Method": "GetOrders",
     "RelativePath": "api/orders",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Order.API.Controllers.OrdersController",
+    "Method": "MarkPaymentSuccessful",
+    "RelativePath": "api/orders/{orderId}/payment-success",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

@@ -5,8 +5,10 @@ namespace Order.API.Services
 {
     public interface IOrderService
     {
-        Task<Orders> CreateOrder(CreateOrderDto dto);
+        Task<OrderResponseDto> CreateOrder(CreateOrderDto dto);
 
         Task<List<Orders>> GetOrders();
+        Task<bool> MarkPaymentSuccessful(
+    int orderId);
     }
 }

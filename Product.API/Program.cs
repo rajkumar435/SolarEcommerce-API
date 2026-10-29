@@ -14,6 +14,18 @@ using StackExchange.Redis;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+/*
+ * =====================================================
+ * SERILOG
+ * =====================================================
+ */
+
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Information()
+    .WriteTo.Console()
+    .CreateLogger();
+
+builder.Services.AddSerilog();
 builder.Services.AddOpenTelemetry()
     .ConfigureResource(resource =>
         resource.AddService("Product.API"))
